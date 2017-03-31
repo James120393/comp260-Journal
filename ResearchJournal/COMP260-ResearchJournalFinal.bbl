@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{Inference}
+Z.~Qian, Z.~M. Mao, and Y.~Xie, ``Collaborative tcp sequence number inference
+  attack: How to crack sequence number under a second,'' in {\em Proceedings of
+  the 2012 ACM Conference on Computer and Communications Security}, CCS '12,
+  (New York, NY, USA), pp.~593--604, ACM, 2012.
+
+\bibitem{Reverse}
+B.~Guha and B.~Mukherjee, ``Network security via reverse engineering of tcp
+  code: vulnerability analysis and proposed solutions,'' in {\em INFOCOM '96.
+  Fifteenth Annual Joint Conference of the IEEE Computer Societies. Networking
+  the Next Generation. Proceedings IEEE}, vol.~2, pp.~603--610 vol.2, Mar 1996.
+
+\bibitem{Cross-Path}
+M.~Z. Shafiq, F.~Le, M.~Srivatsa, and A.~X. Liu, ``Cross-path inference attacks
+  on multipath tcp,'' in {\em Proceedings of the Twelfth ACM Workshop on Hot
+  Topics in Networks}, HotNets-XII, (New York, NY, USA), pp.~15:1--15:7, ACM,
+  2013.
+
+\bibitem{Multipath}
+C.~Pearce and S.~Zeadally, ``Ancillary impacts of multipath tcp on current and
+  future network security,'' {\em IEEE Internet Computing}, vol.~19,
+  pp.~58--65, Sept 2015.
+
+\bibitem{Vulnerablilities}
+D.~Formby, S.~S. Jung, J.~Copeland, and R.~Beyah, ``An empirical study of tcp
+  vulnerabilities in critical power system devices,'' in {\em Proceedings of
+  the 2Nd Workshop on Smart Energy Grid Security}, SEGS '14, (New York, NY,
+  USA), pp.~39--44, ACM, 2014.
+
+\bibitem{Future}
+W.~Ding, Z.~Yan, and R.~H. Deng, ``A survey on future internet security
+  architectures,'' {\em IEEE Access}, vol.~4, pp.~4374--4393, 2016.
+
+\end{thebibliography}

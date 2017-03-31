@@ -1,0 +1,58 @@
+\documentclass{scrartcl}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage[none]{hyphenat}
+
+\title{COMP220-Research Journal}
+\subtitle{Graphical Shaders and Optimization}
+
+\author{1506530}
+
+\begin{document}
+	
+	
+	\maketitle
+	\section{Journal}
+	
+	\abstract {For this research journal, shaders and compilers will be looked at. Specifically shader languages that allow for an easier time when creating custom shaders, a look into optimization will also be included.}
+	\newline
+	\newline
+	\textbf{Title: A System for Rapid Exploration of Shader Optimization Choices}\cite{He}
+	\newline
+This is an open source project that provides a new shader language and complier to allow rapid exploration of shader optimization options. Being open source means that anyone can contribute as well as the software being free. This kind of software can be incredibly useful when creating shaders as it allows the user to quickly optimize their game for multiple platforms. It also is designed in a way that allows the program to keep up to date with the most current underlying rendering pipeline's, so if a new GPU has been releases the program will continue to work as per usual.
+	\newline
+	\newline
+	\newline
+	\textbf{Title: Interactive Shader Development}\cite{Jensen}
+	\newline
+As programming becomes more complex and GPU's are in a constant state of evolution, it is very desirable to create software that can aid in keeping up to date. With the newest technology we need to do this without overcompensating the situation. This paper proposes a visual method to creating shaders, like blueprint it is a set of nodes that you connect to create viable algorithms. Unlike blueprint this method is not as optimized, so this paper also goes into a two step optimization process. Placing the generated code in the most optimal positions and a local optimization on the inserted transformations. This could be very useful for those who do not have the technical skill of a programmer but want to create custom shaders of their own.
+	\newline
+	\newline
+	\newline
+	\textbf{Title: Shader Development at OLM}\cite{Ogak}
+	\newline
+This paper describes the challenges that a development team faced and how they overcome them. This type of paper can be really useful when developing shaders yourself as it contains information on how you could go about doing something while explaining whats happing along the process. This paper specifically covers hair and eye shaders while also warning about the issues that creating such shaders can cause. By doing this it can help the reader to not repeat their mistakes as well as justification on why something should be done in the way presented to them.
+	\newline
+	\newline
+	\newline
+	\textbf{Title:Semiautomatic Shader Code Generation for Rendering Voxelized Polygonal Models}\cite{Fische}
+	\newline
+Here is an example of semiautomatic code generation, it looks into the rendering of voxelized polygonal models. Voxelized rendering means that the scene is reprisented with spatial data opposed to conventional rasterization view. This paper proposes generating code based on a minimal extension of the shading language with a small number of voxelization specific keywords. They call rendering shaders accessing voxel data using their language 'voxel shaders'. The keywords chosen are of an XML-like look, and these words are replaced with full shader code once compiled. This can be very useful for medical purposes as CT scans require voxel information and writing the shader for it with this could make the task easier.
+	\newline
+	\newline
+	\newline
+	\textbf{Title:A System for Rapid, Automatic Shader Level-of-detail}\cite{He:2015}
+	\newline
+Similar to the other papers this paper proposes a method of creating shader LOD policies for shaders typical of those in modern games using an LOD system. They state that most shader generation software is too slow and can lead to messy code with hours of waiting time for the shaders to be written. So one of their main focuses is on optimization of their system so the user only has to wait moments for the software to work. To do this they used a greedy search algorithm, adding parameter binding time processing capabilities. Their current system uses GLSL, though they want to use a higher shader authoring system.
+	\newline
+	\newline
+	\newline
+	\textbf{Title:3D graphics hardware and role of shaders}\cite{Pathak}
+	\newline
+Pathak describes in this paper, the different methods, languages and terms used in graphics programming. A good place to start for someone looking to engage in the more technical side of 3D or 2D rendering. Many things are covered from a language like GLSL to the hardwares graphics pipeline. This paper is a nice summary that covers the basics that one could refer back to when working on shaders.
+	
+	
+	\bibliographystyle{ieeetr}
+	\bibliography{COMP220-Journal}
+	
+\end{document}
